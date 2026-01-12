@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Café Aroma - Kontakt</title>
+</head>
+<body>
+    <header class="header-contact">
+        <nav class="navbar">
+            <div class="logo"><a href="index.html">Café Aroma</a></div>
+            <ul class="nav-links">
+                <li><a href="index.html">Početna</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="kontakt.html" class="active">Kontakt</a></li>
+            </ul>   
+        </nav>
+        <div class="contact-hero">
+            <h1>Kontaktirajte nas</h1>
+            <p>Pošaljite nam poruku ili nas posetite u našoj kafi</p>
+        </div>
+    </header>
+
+    <section class="contact-form-section">
+        <div class="contact-wrapper">
+            <div class="contact-form-container">
+                <h2>Pošaljite nam poruku</h2>
+                <form class="contact-form" action="#" method="post">
+                    <div class="form-group">
+                        <label for="ime">Ime i prezime</label>
+                        <input type="text" id="ime" name="ime" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="telefon">Telefon</label>
+                        <input type="tel" id="telefon" name="telefon">
+                    </div>
+                    <div class="form-group">
+                        <label for="poruka">Poruka</label>
+                        <textarea id="poruka" name="poruka" rows="6" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Pošalji poruku</button>
+                </form>
+            </div>
+
+            <div class="contact-info-container">
+                <h2>Kontakt informacije</h2>
+                <div class="contact-info-item">
+                    <div class="contact-icon">📍</div>
+                    <div class="contact-details">
+                        <h3>Adresa</h3>
+                        <p>Knez Mihailova 15<br>Beograd, Srbija</p>
+                    </div>
+                </div>
+                <div class="contact-info-item">
+                    <div class="contact-icon">📞</div>
+                    <div class="contact-details">
+                        <h3>Telefon</h3>
+                        <p>+381 11 123 4567</p>
+                    </div>
+                </div>
+                <div class="contact-info-item">
+                    <div class="contact-icon">✉️</div>
+                    <div class="contact-details">
+                        <h3>Email</h3>
+                        <p>info@cafearoma.rs</p>
+                    </div>
+                </div>
+                <div class="contact-info-item">
+                    <div class="contact-icon">🕒</div>
+                    <div class="contact-details">
+                        <h3>Radno vreme</h3>
+                        <p>Ponedeljak - Petak: 08:00 - 22:00<br>Subota - Nedelja: 09:00 - 23:00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p class="copyright">© 2026 Café Aroma. Sva prava zadržana.</p>
+        <div class="social-icons">
+            <a href="#" class="social-link">
+                📷 Instagram
+            </a>
+            <a href="#" class="social-link">
+                👤 Facebook
+            </a>
+            <a href="#" class="social-link">
+                ✉️ Email
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
